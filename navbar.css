@@ -178,17 +178,46 @@ nav ul li a{
     color: rgb(255, 255, 255);
     text-shadow: rgb(78, 78, 78) 0.1rem 0.1rem 0.1rem;
 }
+
+.sche2{
+
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    width: 100%;
+    border-radius: 3px;
+    margin: 0 auto;
+    
+    background-size: 100%;
+    background-image:url(iimg/bg1_工作區域\ 1.png); ;
+    background-position: 50%;
+    background-repeat: NONE;
+
+}
 .num{
     
     color: white;
 }
 
+.sche p{
+        
+    color: #ffffff;
+        
+    font-weight: 700;
+     display: flex;
+     position: absolute;
+     font-size: 4rem;
+     bottom:15rem;
+     left: 6rem;
+     color: white; text-shadow: rgb(82, 82, 82) 0.1em 0.1em 0.2em
+    
+    }
+
 .about{
     height: 300vh;
     display: flex;
     justify-content: center;
-    background-color: rgb(198, 198, 198);
-    
+    background-color:  rgb(181, 181, 181);
+    background-image:url(iimg/pap1.png) ;
     
 }
 .about-title{
@@ -229,7 +258,7 @@ nav ul li a{
 }
 .about-pages img{
     width: 30rem;
-    height: 30rem;
+    border-radius: 10px;
 }
 .about-pages div{
     height: 100vh;
@@ -241,7 +270,7 @@ nav ul li a{
 }
 
 .about-pages p{
-    color: #616161;
+    color: #ffffff;
     font-weight: 600;
 }
 .about-pages div>p{
@@ -249,13 +278,13 @@ nav ul li a{
 }
 
 .about-pages div:nth-child(1){
-    background-color: rgb(189, 130, 74);
+    background-color: rgb(211, 211, 211);
 }
 .about-pages div:nth-child(2){
-    background-color: rgb(234, 229, 211);
+    background-color: rgb(211, 211, 211);
 }
 .about-pages div:nth-child(3){
-    background-color: rgb(54, 184, 186);
+    background-color: rgb(211, 211, 211);
 }
 
 .mobilearti{
@@ -388,6 +417,20 @@ nav ul li a{
        
     }
 
+    .sche p{
+        
+        color: #ffffff;
+            
+        font-weight: 700;
+         display: flex;
+         position: absolute;
+         font-size: 2rem;
+         top:23rem;
+         left: 1.5rem;
+         color: white; text-shadow: rgb(82, 82, 82) 0.1em 0.1em 0.2em
+        
+        }
+
     .about{
        display: none;
         
@@ -414,20 +457,32 @@ nav ul li a{
        
     }
     .mobilearti div:nth-child(1){
-        background-color: rgb(189, 130, 74);
+        background-color: rgb(211, 211, 211);
+        background-image: url(iimg/pap1.png);
     }
     .mobilearti div:nth-child(2){
-        background-color: rgb(234, 229, 211);
+        background-color: rgb(211, 211, 211);
+        background-image: url(iimg/pap1.png);
     }
     .mobilearti div:nth-child(3){
-        background-color: rgb(54, 184, 186);
+        background-color: rgb(211, 211, 211);
+        background-image: url(iimg/pap1.png);
     }
     .mobilearti img{
        width: 300px;
        padding-top: 3rem;
     }
     
-    
+    .sche2{
+
+        
+        
+        background-size: 10%;
+        background-image:url(iimg/bg1_工作區域\ 1.png); ;
+        background-position: 50%;
+        background-repeat: NONE;
+
+    }
     
     
     
@@ -558,34 +613,24 @@ td {
     width:100%;
     
     }
-    .sche p{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        color: #ffffff;
-    }
+    
 
     .owl-dots{
         display: none;
     }
 
-    .sche2{
-
-        background-color: rgb(218, 218, 218);
-        text-align: center;
-        width: 100%;
-        border-radius: 3px;
-        margin: 0 auto;
-
-    }
+   
     .sche2 h1 {
         padding-top: 4rem;
         padding-bottom: 2rem;
         color: #ffffff;
         background-color: rgb(218, 218, 218);
+        
     }
     .sche2 img{
         border-radius: 50%;
         width: 300px;
+        padding-top: 2REM;
         
     }
     
