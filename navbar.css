@@ -217,7 +217,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     background-color:  rgb(181, 181, 181);
-    background-image:url(iimg/pap1.png) ;
+    background: url(iimg/bg1_工作區域\ 1.png);
     
 }
 .about-title{
@@ -270,25 +270,42 @@ nav ul li a{
 }
 
 .about-pages p{
-    color: #ffffff;
+    color: #8f8f8f;
     font-weight: 600;
+   
+    padding-top: 5rem;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 .about-pages div>p{
     width:80%;
 }
 
 .about-pages div:nth-child(1){
-    background-color: rgb(211, 211, 211);
+   background-color: #e1e1e1;
 }
 .about-pages div:nth-child(2){
-    background-color: rgb(211, 211, 211);
+    background-color: #e1e1e1;
 }
+    
+
 .about-pages div:nth-child(3){
-    background-color: rgb(211, 211, 211);
+    background-color: #e1e1e1;
 }
+
+
 
 .mobilearti{
     display: none;
+}
+
+.map{
+    margin: 0 auto;
+}
+.map iframe{
+    width: 70rem;
+    height: 40rem;
 }
 
  @media(min-width:960px){
@@ -446,6 +463,7 @@ nav ul li a{
         align-items: center;
         text-align: center;
         margin: 0 auto;
+        background: url(iimg/背景點點.png);
     }
     .mobilearti p{
         color: #616161;
@@ -454,23 +472,42 @@ nav ul li a{
         padding-right: 2rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
+        
+        border-radius: 2rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        
        
     }
+    .mobilearti div{
+        
+        background: url(iimg/bg1_工作區域\ 1.png)  repeat;
+        
+        
+    }
+    
     .mobilearti div:nth-child(1){
         background-color: rgb(211, 211, 211);
-        background-image: url(iimg/pap1.png);
+        
+        
     }
     .mobilearti div:nth-child(2){
         background-color: rgb(211, 211, 211);
-        background-image: url(iimg/pap1.png);
+       
+        
     }
     .mobilearti div:nth-child(3){
         background-color: rgb(211, 211, 211);
-        background-image: url(iimg/pap1.png);
+       
+        
     }
     .mobilearti img{
        width: 300px;
-       padding-top: 3rem;
+       margin-top: 3rem;
+       
+       border-radius: 1rem;
     }
     
     .sche2{
@@ -667,4 +704,119 @@ td {
     padding-top: 1rem;
     padding-bottom: 5rem;
 }
+.full{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #eee;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(iimg/bg3.png);
   
+}
+
+.grid {
+    display: flex;
+    width: 90rem;
+    grid-gap: 6rem;
+    padding-top:7rem;
+    padding-bottom: 7rem;
+    
+    
+    
+   
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    transition: 0.2s;
+    
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  }
+
+  .card{
+    width: 100%;
+  }
+  
+  .card-img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.4rem 0.4rem 0 0;
+  }
+  
+  .card-content {
+    padding: 3rem;
+  }
+  
+  .card-header {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #626262;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  
+  .card-btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
+  
+  .card-btn:hover,
+  .card-btn:active {
+    background-color: #c2cffc;
+  }
+  
+  .card-btn:hover span,
+  .card-btn:active span {
+    margin-left: 1.5rem;
+  }
+  
+  @media(max-width:858px) {
+    
+  
+    .grid {
+      grid-gap: 3rem;
+      flex-wrap: wrap;
+      min-height: 100vh;
+    }
+    .grid-item{
+        width: 75%;
+    }
+    
+  
+}
